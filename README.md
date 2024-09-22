@@ -56,6 +56,9 @@ This microservice focuses on the data management aspects of a Secret Gift Exchan
 # Future Improvements
 - Implement the correct gift exchange logic to randomly assign recipients while adhering to constraints (no self-gifting, avoiding repeated pairs within 3 years time frame).
 - Explore concurrency handling mechanisms if the service needs to handle simultaneous requests.
+- Introduce a robust authentication (e.g., JWT, OAuth) and authorization / RBAC mechanism to protect sensitive endpoints.
+- Need to implement strict input validation to ensure all user-provided data is validated against expected formats and ranges.
+- Implement sensitive data encryption to encrypt sensitive data at rest (e.g., stored in databases like password) and in transit (e.g., network communication).
 
 # Getting Started
 - Clone the Repository.
